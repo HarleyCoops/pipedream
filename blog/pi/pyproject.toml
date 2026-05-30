@@ -8,7 +8,7 @@ packages = [{include = "public_q_and_a"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-langchain = "^0.1.11"
+langchain = ">=0.1.11,<0.4.0"
 openai = "^0.27.2"
 jupyter = "^1.0.0"
 pathlib = "^1.0.1"
@@ -16,7 +16,7 @@ faiss-cpu = "^1.7.3"
 tiktoken = "^0.3.3"
 bs4 = "^0.0.1"
 llama-index = "^0.4.28"
-mistune = "^2.0.5"
+mistune = ">=2.0.5,<4.0.0"
 python-dotenv = "^1.0.0"
 snowflake-connector-python = "^3.0.2"
 openapi3-parser = "^1.1.6"
@@ -26,8 +26,8 @@ torch = "^2.2.0"
 matplotlib = "^3.7.1"
 scikit-optimize = "^0.9.0"
 supabase = "^1.2.0"
-markdownify = "^0.11.6"
-lxml = "^4.9.3"
+markdownify = ">=0.11.6,<0.15.0"
+lxml = ">=4.9.3,<7.0.0"
 
 
 [build-system]
